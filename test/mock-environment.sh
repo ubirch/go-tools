@@ -1,0 +1,15 @@
+#!/bin/bash
+# this script will mock some GO environment variables
+export GO_SERVER_URL='https://127.0.0.1:8154/go/'
+export GO_TRIGGER_USER='changes'
+export GO_PIPELINE_NAME='ubirch_backend'
+export GO_PIPELINE_COUNTER='11'
+export GO_PIPELINE_LABEL='11'
+export GO_STAGE_NAME='compile'
+export GO_STAGE_COUNTER='1'
+export GO_JOB_NAME='Maven_Install'
+export GO_REVISION_UBIRCH_BACKEND='be75605f0214897329beeb7d33768bf565f49f06'
+export GO_TO_REVISION_UBIRCH_BACKEND='be75605f0214897329beeb7d33768bf565f49f06'
+export GO_FROM_REVISION_UBIRCH_BACKEND='be75605f0214897329beeb7d33768bf565f49f06'
+export GO_DEPENDENCY_LABEL_MAVEN_BUILD_CONTAINER='20'
+export GO_DEPENDENCY_LOCATOR_MAVEN_BUILD_CONTAINER='Maven_Container/20/Publish_to_Dockerhub/1'
